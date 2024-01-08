@@ -1,0 +1,41 @@
+.homepage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.text-container {
+    z-index: 1;
+    text-align: center;
+    color: black;
+}
+
+.text-container>h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.text-container>p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.text-container>button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.todopage {
+    height: 100;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+.image-container3{
+    flex:1;
+    margin-left: 50px;
+    background-color: #ddd;
+}
+
+    
+.text-container3{
+    flex: 1;
+    padding: 50px;
+    text-align: left;
+}
+
+.text-container3>h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.text-container3>p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
