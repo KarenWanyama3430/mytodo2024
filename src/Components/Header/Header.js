@@ -5,6 +5,7 @@ const Header =() =>{
     return(
         <div className="header">
             <div className="header__left">
+                
                 <h2>Santorini</h2>
             </div>
             <div className="header__center">
