@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImage from 
+// import HomeImage from '../Assets/Home.jpg'
 import './Home.css'
 
 const Home = () => {
@@ -7,7 +7,7 @@ const Home = () => {
         <div>
             <div className='homepage'>
                 <div className='image-container'>
-                    {<img src={heroImage} alt='' className='background-image'/> }
+                    {/* {<img src={HomeImage} alt='' className='background-image'/> } */}
                     <div className='text-container'>
 
                         <h1>Your Accountability Patner</h1>
