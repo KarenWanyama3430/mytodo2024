@@ -18,7 +18,8 @@ const Header =() =>{
                 </ul>
                  </div>
                  <div className="header__right">
-                 <Link to="/sign up">Sign up</Link>
+                 <li><a href="#">Sign up</a></li>
+                
 
                  </div>
 
