@@ -1,5 +1,5 @@
 import React from 'react'
-// import heroImage from '..Assets/accountability-patner.png'
+import heroImage from '/Assets/accountability-patner.png'
 import './Home.css'
 
 const Home = () => {
@@ -7,7 +7,7 @@ const Home = () => {
         <div>
             <div className='homepage'>
                 <div className='image-container'>
-                    {/* <img src={heroImage} alt='' className='background-image'/> */}
+                    {<img src={heroImage} alt='' className='background-image'/> }
                     <div className='text-container'>
 
                         <h1>Your Accountability Patner</h1>
