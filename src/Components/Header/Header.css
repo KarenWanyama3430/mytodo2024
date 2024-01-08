@@ -9,3 +9,51 @@
     left: 0;
     z-index: 100;
 }
+.header__left{
+    display: left;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.header__left >h2{
+    font-size: 20px;
+
+}
+.header__center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__lists{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__lists>li{
+    list-style-type: none;
+    padding: 10px;
+}
+.header__lists>li>a:hover{
+    color: rgb(241, 241, 232);
+}
+.header__lists >li>a{
+    text-decoration: none;
+
+}
+.header__right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header__right >button{
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.header__right >a{
+    padding: 10px;
+    margin: 0 10px;
+    background-color: antiquewhite;
+}
