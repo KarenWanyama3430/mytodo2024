@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImage from '/Assets/accountability-patner.png'
+import heroImage from '../Assets/accountability patner.jpg'
 import './Home.css'
 
 const Home = () => {
