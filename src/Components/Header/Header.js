@@ -1,12 +1,13 @@
 import React from 'react'
 import './Header.css'
-import logo_icon from '../Assets/logo.png'
+// import logo from '../Assets/logo.png';
+
 
 const Header =() =>{
     return(
         <div className="header">
             <div className="header__left">
-                <img src={logo_icon} />
+            {/* <img src={logo} alt="Logo" /> */}
                 <h2>Santorini</h2>
             </div>
             <div className="header__center">
