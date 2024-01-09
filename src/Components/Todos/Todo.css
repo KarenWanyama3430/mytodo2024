@@ -31,14 +31,14 @@ h1 {
   font-size: 1.75rem;
 }
 
-.TodoMainWrapper {
+.TodoWrapper {
   background: #1A1A40;
   margin-top: 5rem;
   padding: 2rem;
   border-radius: 5px;
 }
 
-.TodoMainForm {
+.TodoForm {
   width: 100%;
   margin-bottom: 1rem;
 }

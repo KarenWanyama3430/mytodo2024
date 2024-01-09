@@ -5,7 +5,7 @@ import { TodoForm } from "./TodoForm";
 import { v4 as uuidv4 } from "uuid";
 import EditTodoForm  from "./EditTodoForm";
 
-const TodoMainWrapper = () => {
+const TodoWrapper = () => {
   const [todos, setTodos] = useState([]);
 
   const addTodo = (todo) => {
@@ -64,4 +64,4 @@ const TodoMainWrapper = () => {
   );
 };
 
-export default TodoMainWrapper
+export default TodoWrapper
