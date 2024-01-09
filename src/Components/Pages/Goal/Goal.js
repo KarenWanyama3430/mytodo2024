@@ -1,12 +1,12 @@
 import React from 'react'
 import './Goal.css'
-// import goalsImage from '..Assets/settinggoals.png'
+import goalsImage from '../../Assets/settinggoals.jpg'
 const Goal = () => {
   return (
     <div>
         <div className='goalspage'>
                 <div className='image-container2'>
-                    {/* <img src={goalsImage} alt='' className='image-container'/> */}
+                    <img src={goalsImage} alt=''className='background'/>
                     <div className='text-container2'>
 
                         <h2>Your Goal Tracking Buddy</h2>
