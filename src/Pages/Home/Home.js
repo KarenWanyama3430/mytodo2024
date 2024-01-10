@@ -7,7 +7,7 @@ import Community from '../../Components/Community/Community'
 
 const Home = () => {
     return (
-        <div>
+        <div className='home'>
             
             <Hero />
             <Goal/>
