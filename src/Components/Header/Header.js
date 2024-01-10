@@ -12,9 +12,9 @@ const Header =() =>{
             </div>
             <div className="header__center">
             <ul className="header__lists">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Goals</a></li>
-                <li><a href="#">Todos</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/goals">Goals</a></li>
+                <li><a href="/todo">Todos</a></li>
                 <li><a href="#">Rewards</a></li>
                 <li><a href="#">Community</a></li>
                 
@@ -32,4 +32,4 @@ const Header =() =>{
 }
 
 
-export default Header
+export default Header;

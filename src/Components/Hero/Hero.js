@@ -1,13 +1,13 @@
 import React from 'react'
 import HomeImage from '../../Assets/Home.jpg'
-import './Home.css'
+import './Hero.css'
 
-const Home = () => {
+const Hero = () => {
     return (
         <div>
             <div className='homepage'>
                 <div className='image-container'>
-                    {<img src={HomeImage} alt='' className='background-image'/>}
+                    {/* {<img src={HomeImage} alt='' className='background-image'/>} */}
                     <div className='text-container'>
 
                         <h1>Your Accountability Patner</h1>
@@ -30,4 +30,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Hero

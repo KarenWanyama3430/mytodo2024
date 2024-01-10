@@ -4,6 +4,10 @@
     justify-content: center;
     align-items: center;
     margin-bottom: -10px;
+    background-image: url("../../Assets/Home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .background-image {
