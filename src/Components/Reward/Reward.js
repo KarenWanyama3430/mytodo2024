@@ -1,5 +1,6 @@
 import React from 'react'
 import './Reward.css'
+import rewardsImage from '../../Assets/success after finishing a task.jpg'
 
 
 const Reward = () => {
@@ -7,7 +8,7 @@ const Reward = () => {
     <div>
       <div className='rewardspage'>
                 <div className='image-container3'>
-                    {/* <img src={goalsImage} alt='' className='image-container'/> */}
+                    {<img src={rewardsImage} alt='' className='image-container'/>}
                     <div className='text-container3'>
 
                         <h2>Earn Points for Tasked Finished</h2>

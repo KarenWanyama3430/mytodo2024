@@ -1,39 +1,47 @@
-.todopage {
+.todospage {
     width: 100%;
     display: flex;
-    align-items:center;
+    align-items: center;
     padding:-2px;
     background-color: #f5f5f5;
     margin: top -1px;;
     border: none;
     object-fit: cover;
-    
 }
 
-.image-container3{
-    flex: 1;
-    margin-left: 50px;
-    margin-right: 50px;
+.image-container4 {
+    /* height: 10%; */
+    width: 100%;
     background-color: #ddd;
-    object-fit: cover;
-    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
 }
 
-    
-.text-container3{
-    flex: 0.5;
-    padding: 50px;
+.image-container4img {
+    width: 48%;
+    /* height: 400px; */
+    max-width: 700px;
+
+}
+
+.text-container3 {
+    width: 38%;
+    padding: 20px;
+    /* text-align: center; */
 }
 
 .text-container3>h2 {
     font-size: 2rem;
     margin-bottom:10px;
-    text-align:left;
+    
 }
 
 .text-container3>p {
     font-size: 1.2rem;
     line-height: 1.5;
-    text-align: left;
 }
+ 
 
+
+ 
